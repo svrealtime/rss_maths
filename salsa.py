@@ -1,16 +1,27 @@
 #!usr/bin/python3
 
+__author__ = "Leon Wetzel"
+__copyright__ = "Copyright 2018, Leon Wetzel"
+__credits__ = "Leon Wetzel"
+__license__ = "Beerware License"
+__version__ = "1.0"
+__maintainer__ = "Leon Wetzel"
+__email__ = "leonwetzel@gmail.com"
+__status__ = "Development"
+
 import sys
 import random
 
 operators = ["+", "-", "/", "*"]
-report = {}
 
 
 def main():
+    report = {}
+
     print("Welcome to Sommensalsa!")
     print("Please do not use a calculator to answer the following questions :)")
     print("Pen and paper can be used to perform calculations.")
+
     for _ in range(maximum):
 
         alpha = random.randrange(1, 101, 2)
